@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+*{
+    color: white;
+    font-family: "Nunito" sans-serif;
+}
+
+body{
+    background-color: darkred;
+}
+
+.register{
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    height: 20vh;
+    margin-left: 35%;
+    margin-top: 40vh;
+}
+
+.number{
+    align-items: center;
+    color: black;
+}
+
+.numbers{
+    color: black;
+}
+
+.h{
+    margin-top: 35%;
+}
+
+.button{
+    background-color: black;
+}

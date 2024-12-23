@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    font-family: "Nunito", sans-serif;
+    color: white;
+}
+
+.header{
+    background-color: green;
+    text-align: center;
+    padding: 10px;
+}
+
+.header_title{
+    color: white;
+}
+
+
+
+.doings{
+    width: 50%;
+    height: 80vh;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    border-radius: 20px;
+    align-items: center;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.data_input{
+    width: 50%;
+    height: 60%;
+    float: right;
+}
+
+.doing{
+    width: 80%;
+    color: white;
+    background-color: darkseagreen;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    display: flexbox;
+}
+
+.doing-delete-btn{
+    float: right;
+    background-color: darkcyan;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    border-style: none;
+}
+
+.doing-delete-btn:hover{
+    cursor: pointer;
+    background-color:lightblue;
+}
+
+.doing-button{
+    background-color: black
+}
+
+.write{
+    width: 20%;
+    background-color: darkcyan;
+    border-radius: 20px;
+    padding: 10px;
+    display: flexbox;
+    position: fixed;
+    right: 1px;
+    top: 6vh;
+}
+
+body{
+    background-image: url("../html/image_862804172236374799307.gif");
+    background-size: cover;
+}
+
+
+.Name_list{
+    background-color: #7d1cc2;
+    color: white;
+    border-radius: 10px;
+}
+
+.inside{
+    background-color: darkviolet;
+    color: white;
+    border-radius: 10px;
+}
+
+.button-dop{
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    border-radius: 10px;
+}
+
+.button-dop:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.name_list{
+    color: white;
+    transition: background-color 0.3s, transform 0.3s;
+    
+}
+
+.inside_list{
+    color: white;
+    transition: background-color 0.3s, transform 0.3s;
+}
+

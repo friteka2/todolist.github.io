@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+*{
+    color: white;
+    font-family: "Nunito" sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+
+.clicker-block{
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    height: 20vh;
+    margin-left: 35%;
+    margin-top: 40vh;
+}
+
+.pointer-text{
+    text-align: center;
+}
+
+.click-button{
+    background-color: floralwhite;
+    text-align: center;
+    font-size: xx-large;
+    border: 3px;
+    color: black ;
+    border-radius: 12px;
+    transition: background-color 0.2s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.click-button:hover{
+    cursor: pointer;
+    background-color: green;
+    transform: scale(1.035);
+}
+
+.click-button:active{
+    background-color: green;
+    transform: scale(0.97);
+}
